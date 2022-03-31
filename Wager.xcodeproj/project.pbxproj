@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D462F2AB27F5287A00152BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2AA27F5287A00152BB5 /* AppDelegate.swift */; };
+		D462F2AD27F5287A00152BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2AC27F5287A00152BB5 /* SceneDelegate.swift */; };
+		D462F2B227F5287A00152BB5 /* Sports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D462F2B027F5287A00152BB5 /* Sports.storyboard */; };
+		D462F2B427F5287C00152BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D462F2B327F5287C00152BB5 /* Assets.xcassets */; };
+		D462F2B727F5287C00152BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D462F2B527F5287C00152BB5 /* LaunchScreen.storyboard */; };
+		D462F2C227F5287C00152BB5 /* WagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2C127F5287C00152BB5 /* WagerTests.swift */; };
+		D462F2CC27F5287C00152BB5 /* WagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2CB27F5287C00152BB5 /* WagerUITests.swift */; };
+		D462F2CE27F5287C00152BB5 /* WagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2CD27F5287C00152BB5 /* WagerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D462F2BE27F5287C00152BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D462F29F27F5287A00152BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D462F2A627F5287A00152BB5;
+			remoteInfo = Wager;
+		};
+		D462F2C827F5287C00152BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D462F29F27F5287A00152BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D462F2A627F5287A00152BB5;
+			remoteInfo = Wager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D462F2A727F5287A00152BB5 /* Wager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D462F2AA27F5287A00152BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D462F2AC27F5287A00152BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D462F2B127F5287A00152BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Sports.storyboard; sourceTree = "<group>"; };
+		D462F2B327F5287C00152BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D462F2B627F5287C00152BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D462F2B827F5287C00152BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D462F2BD27F5287C00152BB5 /* WagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D462F2C127F5287C00152BB5 /* WagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerTests.swift; sourceTree = "<group>"; };
+		D462F2C727F5287C00152BB5 /* WagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D462F2CB27F5287C00152BB5 /* WagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerUITests.swift; sourceTree = "<group>"; };
+		D462F2CD27F5287C00152BB5 /* WagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D462F2A427F5287A00152BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2BA27F5287C00152BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2C427F5287C00152BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D462F29E27F5287A00152BB5 = {
+			isa = PBXGroup;
+			children = (
+				D462F2A927F5287A00152BB5 /* Wager */,
+				D462F2C027F5287C00152BB5 /* WagerTests */,
+				D462F2CA27F5287C00152BB5 /* WagerUITests */,
+				D462F2A827F5287A00152BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D462F2A827F5287A00152BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2A727F5287A00152BB5 /* Wager.app */,
+				D462F2BD27F5287C00152BB5 /* WagerTests.xctest */,
+				D462F2C727F5287C00152BB5 /* WagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D462F2A927F5287A00152BB5 /* Wager */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2DA27F528EF00152BB5 /* Application */,
+				D462F2DB27F528FB00152BB5 /* Plists */,
+				D462F2DC27F5290200152BB5 /* Assests */,
+				D462F2DD27F5290900152BB5 /* Extensions */,
+				D462F2DE27F5290D00152BB5 /* Models */,
+				D462F2DF27F5291100152BB5 /* Networking */,
+				D462F2E027F5291600152BB5 /* Storyboards */,
+				D462F2E127F5291D00152BB5 /* EventsScene */,
+				D462F2E227F5292300152BB5 /* OddsSecene */,
+			);
+			path = Wager;
+			sourceTree = "<group>";
+		};
+		D462F2C027F5287C00152BB5 /* WagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2C127F5287C00152BB5 /* WagerTests.swift */,
+			);
+			path = WagerTests;
+			sourceTree = "<group>";
+		};
+		D462F2CA27F5287C00152BB5 /* WagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2CB27F5287C00152BB5 /* WagerUITests.swift */,
+				D462F2CD27F5287C00152BB5 /* WagerUITestsLaunchTests.swift */,
+			);
+			path = WagerUITests;
+			sourceTree = "<group>";
+		};
+		D462F2DA27F528EF00152BB5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2AA27F5287A00152BB5 /* AppDelegate.swift */,
+				D462F2AC27F5287A00152BB5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D462F2DB27F528FB00152BB5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2B827F5287C00152BB5 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		D462F2DC27F5290200152BB5 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2B327F5287C00152BB5 /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		D462F2DD27F5290900152BB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D462F2DE27F5290D00152BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D462F2DF27F5291100152BB5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D462F2E027F5291600152BB5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D462F2B527F5287C00152BB5 /* LaunchScreen.storyboard */,
+				D462F2B027F5287A00152BB5 /* Sports.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D462F2E127F5291D00152BB5 /* EventsScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventsScene;
+			sourceTree = "<group>";
+		};
+		D462F2E227F5292300152BB5 /* OddsSecene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OddsSecene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D462F2A627F5287A00152BB5 /* Wager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D462F2D127F5287C00152BB5 /* Build configuration list for PBXNativeTarget "Wager" */;
+			buildPhases = (
+				D462F2A327F5287A00152BB5 /* Sources */,
+				D462F2A427F5287A00152BB5 /* Frameworks */,
+				D462F2A527F5287A00152BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wager;
+			productName = Wager;
+			productReference = D462F2A727F5287A00152BB5 /* Wager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D462F2BC27F5287C00152BB5 /* WagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D462F2D427F5287C00152BB5 /* Build configuration list for PBXNativeTarget "WagerTests" */;
+			buildPhases = (
+				D462F2B927F5287C00152BB5 /* Sources */,
+				D462F2BA27F5287C00152BB5 /* Frameworks */,
+				D462F2BB27F5287C00152BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D462F2BF27F5287C00152BB5 /* PBXTargetDependency */,
+			);
+			name = WagerTests;
+			productName = WagerTests;
+			productReference = D462F2BD27F5287C00152BB5 /* WagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D462F2C627F5287C00152BB5 /* WagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D462F2D727F5287C00152BB5 /* Build configuration list for PBXNativeTarget "WagerUITests" */;
+			buildPhases = (
+				D462F2C327F5287C00152BB5 /* Sources */,
+				D462F2C427F5287C00152BB5 /* Frameworks */,
+				D462F2C527F5287C00152BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D462F2C927F5287C00152BB5 /* PBXTargetDependency */,
+			);
+			name = WagerUITests;
+			productName = WagerUITests;
+			productReference = D462F2C727F5287C00152BB5 /* WagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D462F29F27F5287A00152BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D462F2A627F5287A00152BB5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D462F2BC27F5287C00152BB5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D462F2A627F5287A00152BB5;
+					};
+					D462F2C627F5287C00152BB5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D462F2A627F5287A00152BB5;
+					};
+				};
+			};
+			buildConfigurationList = D462F2A227F5287A00152BB5 /* Build configuration list for PBXProject "Wager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D462F29E27F5287A00152BB5;
+			productRefGroup = D462F2A827F5287A00152BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D462F2A627F5287A00152BB5 /* Wager */,
+				D462F2BC27F5287C00152BB5 /* WagerTests */,
+				D462F2C627F5287C00152BB5 /* WagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D462F2A527F5287A00152BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462F2B727F5287C00152BB5 /* LaunchScreen.storyboard in Resources */,
+				D462F2B427F5287C00152BB5 /* Assets.xcassets in Resources */,
+				D462F2B227F5287A00152BB5 /* Sports.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2BB27F5287C00152BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2C527F5287C00152BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D462F2A327F5287A00152BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462F2AB27F5287A00152BB5 /* AppDelegate.swift in Sources */,
+				D462F2AD27F5287A00152BB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2B927F5287C00152BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462F2C227F5287C00152BB5 /* WagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F2C327F5287C00152BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462F2CC27F5287C00152BB5 /* WagerUITests.swift in Sources */,
+				D462F2CE27F5287C00152BB5 /* WagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D462F2BF27F5287C00152BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D462F2A627F5287A00152BB5 /* Wager */;
+			targetProxy = D462F2BE27F5287C00152BB5 /* PBXContainerItemProxy */;
+		};
+		D462F2C927F5287C00152BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D462F2A627F5287A00152BB5 /* Wager */;
+			targetProxy = D462F2C827F5287C00152BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D462F2B027F5287A00152BB5 /* Sports.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D462F2B127F5287A00152BB5 /* Base */,
+			);
+			name = Sports.storyboard;
+			sourceTree = "<group>";
+		};
+		D462F2B527F5287C00152BB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D462F2B627F5287C00152BB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D462F2CF27F5287C00152BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D462F2D027F5287C00152BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D462F2D227F5287C00152BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wager/Plists/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Sports;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.Wager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D462F2D327F5287C00152BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wager/Plists/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Sports;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.Wager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D462F2D527F5287C00152BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.WagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wager.app/Wager";
+			};
+			name = Debug;
+		};
+		D462F2D627F5287C00152BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.WagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wager.app/Wager";
+			};
+			name = Release;
+		};
+		D462F2D827F5287C00152BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.WagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wager;
+			};
+			name = Debug;
+		};
+		D462F2D927F5287C00152BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blynr.WagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D462F2A227F5287A00152BB5 /* Build configuration list for PBXProject "Wager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D462F2CF27F5287C00152BB5 /* Debug */,
+				D462F2D027F5287C00152BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D462F2D127F5287C00152BB5 /* Build configuration list for PBXNativeTarget "Wager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D462F2D227F5287C00152BB5 /* Debug */,
+				D462F2D327F5287C00152BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D462F2D427F5287C00152BB5 /* Build configuration list for PBXNativeTarget "WagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D462F2D527F5287C00152BB5 /* Debug */,
+				D462F2D627F5287C00152BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D462F2D727F5287C00152BB5 /* Build configuration list for PBXNativeTarget "WagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D462F2D827F5287C00152BB5 /* Debug */,
+				D462F2D927F5287C00152BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D462F29F27F5287A00152BB5 /* Project object */;
+}
