@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D408277F27F534C800A0A940 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408277E27F534C800A0A940 /* NetworkManager.swift */; };
+		D408278627F53AC300A0A940 /* EventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278027F53AC300A0A940 /* EventsPresenter.swift */; };
+		D408278727F53AC300A0A940 /* EventsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278127F53AC300A0A940 /* EventsWorker.swift */; };
+		D408278827F53AC300A0A940 /* EventsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278227F53AC300A0A940 /* EventsRouter.swift */; };
+		D408278927F53AC300A0A940 /* EventsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278327F53AC300A0A940 /* EventsModels.swift */; };
+		D408278A27F53AC300A0A940 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278427F53AC300A0A940 /* EventsViewController.swift */; };
+		D408278B27F53AC300A0A940 /* EventsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278527F53AC300A0A940 /* EventsInteractor.swift */; };
+		D408279227F53D7B00A0A940 /* OddsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278C27F53D7B00A0A940 /* OddsPresenter.swift */; };
+		D408279327F53D7B00A0A940 /* OddsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278D27F53D7B00A0A940 /* OddsWorker.swift */; };
+		D408279427F53D7B00A0A940 /* OddsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278E27F53D7B00A0A940 /* OddsRouter.swift */; };
+		D408279527F53D7B00A0A940 /* OddsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408278F27F53D7B00A0A940 /* OddsModels.swift */; };
+		D408279627F53D7B00A0A940 /* OddsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408279027F53D7B00A0A940 /* OddsViewController.swift */; };
+		D408279727F53D7B00A0A940 /* OddsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408279127F53D7B00A0A940 /* OddsInteractor.swift */; };
 		D42140E527F52BB70026F363 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D42140E427F52BB70026F363 /* Moya */; };
 		D42140E827F52C080026F363 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = D42140E727F52C080026F363 /* PromiseKit */; };
 		D42140EA27F52C160026F363 /* Moya+PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42140E927F52C160026F363 /* Moya+PromiseKit.swift */; };
@@ -44,6 +56,18 @@
 
 /* Begin PBXFileReference section */
 		D408277E27F534C800A0A940 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D408278027F53AC300A0A940 /* EventsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsPresenter.swift; sourceTree = "<group>"; };
+		D408278127F53AC300A0A940 /* EventsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsWorker.swift; sourceTree = "<group>"; };
+		D408278227F53AC300A0A940 /* EventsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRouter.swift; sourceTree = "<group>"; };
+		D408278327F53AC300A0A940 /* EventsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModels.swift; sourceTree = "<group>"; };
+		D408278427F53AC300A0A940 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		D408278527F53AC300A0A940 /* EventsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsInteractor.swift; sourceTree = "<group>"; };
+		D408278C27F53D7B00A0A940 /* OddsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsPresenter.swift; sourceTree = "<group>"; };
+		D408278D27F53D7B00A0A940 /* OddsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsWorker.swift; sourceTree = "<group>"; };
+		D408278E27F53D7B00A0A940 /* OddsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsRouter.swift; sourceTree = "<group>"; };
+		D408278F27F53D7B00A0A940 /* OddsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsModels.swift; sourceTree = "<group>"; };
+		D408279027F53D7B00A0A940 /* OddsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsViewController.swift; sourceTree = "<group>"; };
+		D408279127F53D7B00A0A940 /* OddsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsInteractor.swift; sourceTree = "<group>"; };
 		D42140E927F52C160026F363 /* Moya+PromiseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+PromiseKit.swift"; sourceTree = "<group>"; };
 		D42140EB27F52C870026F363 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D42140ED27F52DC00026F363 /* SportsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAPI.swift; sourceTree = "<group>"; };
@@ -207,6 +231,12 @@
 		D462F2E127F5291D00152BB5 /* EventsScene */ = {
 			isa = PBXGroup;
 			children = (
+				D408278027F53AC300A0A940 /* EventsPresenter.swift */,
+				D408278127F53AC300A0A940 /* EventsWorker.swift */,
+				D408278227F53AC300A0A940 /* EventsRouter.swift */,
+				D408278327F53AC300A0A940 /* EventsModels.swift */,
+				D408278427F53AC300A0A940 /* EventsViewController.swift */,
+				D408278527F53AC300A0A940 /* EventsInteractor.swift */,
 			);
 			path = EventsScene;
 			sourceTree = "<group>";
@@ -214,6 +244,12 @@
 		D462F2E227F5292300152BB5 /* OddsSecene */ = {
 			isa = PBXGroup;
 			children = (
+				D408278C27F53D7B00A0A940 /* OddsPresenter.swift */,
+				D408278D27F53D7B00A0A940 /* OddsWorker.swift */,
+				D408278E27F53D7B00A0A940 /* OddsRouter.swift */,
+				D408278F27F53D7B00A0A940 /* OddsModels.swift */,
+				D408279027F53D7B00A0A940 /* OddsViewController.swift */,
+				D408279127F53D7B00A0A940 /* OddsInteractor.swift */,
 			);
 			path = OddsSecene;
 			sourceTree = "<group>";
@@ -357,14 +393,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D408279727F53D7B00A0A940 /* OddsInteractor.swift in Sources */,
 				D42140F127F5319B0026F363 /* SportsModel.swift in Sources */,
+				D408278B27F53AC300A0A940 /* EventsInteractor.swift in Sources */,
+				D408279227F53D7B00A0A940 /* OddsPresenter.swift in Sources */,
+				D408278827F53AC300A0A940 /* EventsRouter.swift in Sources */,
+				D408279627F53D7B00A0A940 /* OddsViewController.swift in Sources */,
 				D42140EE27F52DC00026F363 /* SportsAPI.swift in Sources */,
+				D408279427F53D7B00A0A940 /* OddsRouter.swift in Sources */,
+				D408278627F53AC300A0A940 /* EventsPresenter.swift in Sources */,
+				D408279527F53D7B00A0A940 /* OddsModels.swift in Sources */,
 				D42140EC27F52C870026F363 /* UIViewController+Extension.swift in Sources */,
+				D408278727F53AC300A0A940 /* EventsWorker.swift in Sources */,
 				D462F2AB27F5287A00152BB5 /* AppDelegate.swift in Sources */,
+				D408278A27F53AC300A0A940 /* EventsViewController.swift in Sources */,
 				D408277F27F534C800A0A940 /* NetworkManager.swift in Sources */,
 				D42140F327F533A10026F363 /* OddsModel.swift in Sources */,
 				D42140EA27F52C160026F363 /* Moya+PromiseKit.swift in Sources */,
+				D408278927F53AC300A0A940 /* EventsModels.swift in Sources */,
 				D462F2AD27F5287A00152BB5 /* SceneDelegate.swift in Sources */,
+				D408279327F53D7B00A0A940 /* OddsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

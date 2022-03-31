@@ -24,7 +24,8 @@ protocol Networkable {
 
 struct SportsNetworkManager: Networkable {
     
-    var provider = MoyaProvider<SportsAPI>(plugins: [NetworkLoggerPlugin(configuration: .init(logOptions: .verbose))])
+    //(plugins: [NetworkLoggerPlugin(configuration: .init(logOptions: .verbose))]) for logging
+    var provider = MoyaProvider<SportsAPI>()
     
     func getSports(success: @escaping responseSportsSuccess, failure: @escaping responseFailure) {
         firstly {
