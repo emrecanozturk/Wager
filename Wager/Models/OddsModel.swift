@@ -1,5 +1,5 @@
 //
-//  OddModel.swift
+//  OddsModel.swift
 //  Wager
 //
 //  Created by Emrecan OZTURK on 31.03.2022.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - Odd
-struct Odd: Codable {
+// MARK: - OddsModel
+struct OddsModel: Codable {
     let id, sportKey, sportTitle: String
     let commenceTime: Date
     let homeTeam, awayTeam: String
