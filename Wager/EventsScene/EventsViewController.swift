@@ -17,9 +17,19 @@ protocol EventsDisplayLogic: AnyObject {
     func displayFailure(message: String)
 }
 
-class EventsViewController: UIViewController, EventsDisplayLogic {
+class EventsViewController: UIViewController, EventsDisplayLogic, UISearchResultsUpdating {
+    
     var interactor: EventsBusinessLogic?
     var router: (NSObjectProtocol & EventsRoutingLogic & EventsDataPassing)?
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    let searchController = UISearchController(searchResultsController: nil)
+    var model: [SportsModel]?
+    var searchResults : [SportsModel] = []
+    
+    var tableViewDataSource: EventsTableViewDataSource!
+    var tableViewDelegate: EventsTableViewDelegate!
 
     // MARK: Object lifecycle
   
@@ -63,23 +73,77 @@ class EventsViewController: UIViewController, EventsDisplayLogic {
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
+        tableViewSetup()
         getEvents()
     }
+    
+    func setupNavigationBar() {
+        
+        title = "EVENTS"
+        searchController.searchResultsUpdater = self
+        definesPresentationContext = true
+
+        // Place the search bar in the navigation item
+        navigationItem.searchController = searchController
+
+        // Don't hide the navigation bar because the search bar is in it.
+        searchController.hidesNavigationBarDuringPresentation = false
+    }
+    
+    func tableViewSetup() {
+        tableViewDataSource = EventsTableViewDataSource(tableView: tableView)
+        tableViewDelegate = EventsTableViewDelegate()
+        tableViewDelegate.presentingController = self
+        tableView.dataSource = tableViewDataSource
+        tableView.delegate = tableViewDelegate
+    }
   
-    // MARK: Do something
+    // MARK: Get events
   
     //@IBOutlet weak var nameTextField: UITextField!
   
-    func getEvents() {
+    private func getEvents() {
         let request = Events.Models.Request()
         interactor?.getSports(request: request)
     }
   
     func displaySports(viewModel: Events.Models.ViewModel) {
-        
+        model = viewModel.model ?? []
+        guard let foo = viewModel.model else { return }
+        tableViewDataSource.events = foo
+        tableView.reloadData()
     }
     
     func displayFailure(message: String) {
-        showAlert(withTitle: "Ops!", withMessage: message)
+        showAlert(withTitle: "Sorry...", withMessage: message)
+    }
+    
+    func filterContent(for searchText: String) {
+        // Update the searchResults array with matches
+        // in our entries based on the title value.
+        searchResults = (model?.filter({ (sport) -> Bool in
+            return ((sport.title?.range(of: searchText, options: .caseInsensitive)) != nil) || ((sport.description?.range(of: searchText, options: .caseInsensitive)) != nil)
+        })) ?? []
+    }
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        // If the search bar contains text, filter our data with the string
+        if let searchText = searchController.searchBar.text {
+            filterContent(for: searchText)
+            // Reload the table view with the search result data.
+//            tableView.reloadData()
+        }
+    }
+}
+
+extension EventsViewController: EventsPresenting {
+    
+    func currentSelected(_ index: Int) {
+        print(index)
+    }
+    
+    func willDisplayCell(_ index: Int) {
+        print(index)
     }
 }
