@@ -14,7 +14,7 @@ struct SportsModel: Codable {
     let group: String?
     let description: String?
     let title: String?
-    let hasOutrights: String?
+    let hasOutrights: Bool?
     
     enum CodingKeys: String, CodingKey {
         case key

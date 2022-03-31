@@ -540,7 +540,7 @@
 				API_KEY = cb3cfc1fe790b8e91c18ece12a6bf845;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_API_URL = "https://the-odds-api.com/v4";
+				BASE_API_URL = "https://api.the-odds-api.com/v4";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -571,7 +571,7 @@
 				API_KEY = cb3cfc1fe790b8e91c18ece12a6bf845;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_API_URL = "https://the-odds-api.com/v4";
+				BASE_API_URL = "https://api.the-odds-api.com/v4";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

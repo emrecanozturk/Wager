@@ -34,8 +34,8 @@ extension SportsAPI: TargetType {
     var task: Task {
         guard let apiKey = Bundle.main.infoDictionary?["API_KEY"] as? String else { fatalError() }
         switch self {
-            case .getSports  : return .requestParameters(parameters: ["api_key" : apiKey], encoding: URLEncoding.queryString)
-            case .getOdds(_) : return .requestParameters(parameters: ["api_key" : apiKey, "regions": "eu"] , encoding: URLEncoding.queryString)
+            case .getSports  : return .requestParameters(parameters: ["apiKey" : apiKey], encoding: URLEncoding.queryString)
+            case .getOdds(_) : return .requestParameters(parameters: ["apiKey" : apiKey, "regions": "eu"] , encoding: URLEncoding.queryString)
         }
     }
     
