@@ -9,10 +9,10 @@ import Foundation
 
 // MARK: - OddsModel
 struct OddsModel: Codable {
-    let id, sportKey, sportTitle: String
-    let commenceTime: Date
-    let homeTeam, awayTeam: String
-    let bookmakers: [Bookmaker]
+    let id, sportKey, sportTitle: String?
+    let commenceTime: Date?
+    let homeTeam, awayTeam: String?
+    let bookmakers: [Bookmaker]?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -27,9 +27,9 @@ struct OddsModel: Codable {
 
 // MARK: - Bookmaker
 struct Bookmaker: Codable {
-    let key, title: String
-    let lastUpdate: Date
-    let markets: [Market]
+    let key, title: String?
+    let lastUpdate: Date?
+    let markets: [Market]?
 
     enum CodingKeys: String, CodingKey {
         case key, title
@@ -40,12 +40,12 @@ struct Bookmaker: Codable {
 
 // MARK: - Market
 struct Market: Codable {
-    let key: String
-    let outcomes: [Outcome]
+    let key: String?
+    let outcomes: [Outcome]?
 }
 
 // MARK: - Outcome
 struct Outcome: Codable {
-    let name: String
-    let price: Double
+    let name: String?
+    let price: Double?
 }
