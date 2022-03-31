@@ -123,7 +123,7 @@ class EventsViewController: UIViewController, EventsDisplayLogic, UISearchResult
         // Update the searchResults array with matches
         // in our entries based on the title value.
         searchResults = (model?.filter({ (sport) -> Bool in
-            return ((sport.title?.range(of: searchText, options: .caseInsensitive)) != nil) || ((sport.description?.range(of: searchText, options: .caseInsensitive)) != nil)
+            return ((sport.title?.range(of: searchText, options: .caseInsensitive)) != nil) || ((sport.description?.range(of: searchText, options: .caseInsensitive)) != nil) || ((sport.group?.range(of: searchText, options: .caseInsensitive)) != nil)
         })) ?? []
     }
     
@@ -131,8 +131,9 @@ class EventsViewController: UIViewController, EventsDisplayLogic, UISearchResult
         // If the search bar contains text, filter our data with the string
         if let searchText = searchController.searchBar.text {
             filterContent(for: searchText)
+            tableViewDataSource.events = searchText == "" ? model : searchResults
             // Reload the table view with the search result data.
-//            tableView.reloadData()
+            tableView.reloadData()
         }
     }
 }

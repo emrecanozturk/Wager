@@ -11,15 +11,20 @@
 //
 
 import UIKit
+import ProgressHUD
 
 typealias callbackSportsSuccess = (_ response: Events.Models.Response) ->()
 typealias callbackFailure       = (_ response: Error) ->()
 
 class EventsWorker {
+    
     func getSports(successCallBack: @escaping callbackSportsSuccess, failure: @escaping callbackFailure) {
+        ProgressHUD.show()
         SportsNetworkManager().getSports { sports in
+            ProgressHUD.dismiss()
             successCallBack(Events.Models.Response.init(model: sports))
         } failure: { error in
+            ProgressHUD.showError()
             failure(error)
         }
     }
