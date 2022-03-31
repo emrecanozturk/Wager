@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42140E527F52BB70026F363 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D42140E427F52BB70026F363 /* Moya */; };
+		D42140E827F52C080026F363 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = D42140E727F52C080026F363 /* PromiseKit */; };
+		D42140EA27F52C160026F363 /* Moya+PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42140E927F52C160026F363 /* Moya+PromiseKit.swift */; };
+		D42140EC27F52C870026F363 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42140EB27F52C870026F363 /* UIViewController+Extension.swift */; };
 		D462F2AB27F5287A00152BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2AA27F5287A00152BB5 /* AppDelegate.swift */; };
 		D462F2AD27F5287A00152BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462F2AC27F5287A00152BB5 /* SceneDelegate.swift */; };
 		D462F2B227F5287A00152BB5 /* Sports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D462F2B027F5287A00152BB5 /* Sports.storyboard */; };
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42140E927F52C160026F363 /* Moya+PromiseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+PromiseKit.swift"; sourceTree = "<group>"; };
+		D42140EB27F52C870026F363 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D462F2A727F5287A00152BB5 /* Wager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D462F2AA27F5287A00152BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D462F2AC27F5287A00152BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42140E527F52BB70026F363 /* Moya in Frameworks */,
+				D42140E827F52C080026F363 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +163,8 @@
 		D462F2DD27F5290900152BB5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D42140E927F52C160026F363 /* Moya+PromiseKit.swift */,
+				D42140EB27F52C870026F363 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -212,6 +222,10 @@
 			dependencies = (
 			);
 			name = Wager;
+			packageProductDependencies = (
+				D42140E427F52BB70026F363 /* Moya */,
+				D42140E727F52C080026F363 /* PromiseKit */,
+			);
 			productName = Wager;
 			productReference = D462F2A727F5287A00152BB5 /* Wager.app */;
 			productType = "com.apple.product-type.application";
@@ -284,6 +298,10 @@
 				Base,
 			);
 			mainGroup = D462F29E27F5287A00152BB5;
+			packageReferences = (
+				D42140E327F52BB70026F363 /* XCRemoteSwiftPackageReference "Moya" */,
+				D42140E627F52C080026F363 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = D462F2A827F5287A00152BB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -327,7 +345,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42140EC27F52C870026F363 /* UIViewController+Extension.swift in Sources */,
 				D462F2AB27F5287A00152BB5 /* AppDelegate.swift in Sources */,
+				D42140EA27F52C160026F363 /* Moya+PromiseKit.swift in Sources */,
 				D462F2AD27F5287A00152BB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,6 +688,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D42140E327F52BB70026F363 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D42140E627F52C080026F363 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D42140E427F52BB70026F363 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D42140E327F52BB70026F363 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D42140E727F52C080026F363 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D42140E627F52C080026F363 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D462F29F27F5287A00152BB5 /* Project object */;
 }
