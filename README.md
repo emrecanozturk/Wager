@@ -24,8 +24,8 @@ Built using up to date version of Xcode and Swift
  1. Open terminal and navigate to project folder (example: cd Desktop/Papara)
  1. Run `pod install` (make sure your have latest [Cocoapods](https://guides.cocoapods.org/using/getting-started.html#installation)  installed), pods will be installed and new Xcode workspace file will be created
  1. If you have any trouble with Apple Silicon(M1 processors) follow this two steps
-  1. Run `sudo arch -x86_64 gem install ffi`
-  1. Run `arch -x86_64 pod install`
+ - Run `sudo arch -x86_64 gem install ffi`
+ - Run `arch -x86_64 pod install`
  1. If you are working with Apple Silicon(M1 processors) right click Xcode and put a check mark on 'Open using Rosetta'
  1. Open `Papara.xcworkspace` and run the project on selected device or simulator
 
